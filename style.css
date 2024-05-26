@@ -23,14 +23,14 @@ main{
     margin: auto;
 }
 main > h1 {
-    max-width: 30%;
+    max-width: 50%;
 }
 #frase-solta{
     color: purple;
 }
 main > p {
-    max-width: 30%;
+    max-width: 45%;
 }
-.info{
+.templete{
     display: flex;
 }
