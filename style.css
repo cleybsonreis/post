@@ -1,0 +1,36 @@
+:root{
+    --cor-background: rgb(9, 11, 26);
+    --cor-card-background: rgb(27, 25, 56);
+}
+
+@font-face{
+    @import url((https://fonts.google.com/specimen/Inter));
+   
+    @import url ((https://fonts.google.com/specimen/Lexend+Deca));
+}
+body{
+    background-color: var(--cor-background);
+    margin: 0;
+}
+main{
+    background-color: var(--cor-card-background);
+    color: white;
+    font-family: "Inter", sans-serif;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 40px;
+    max-width: 800px;
+    margin: auto;
+}
+main > h1 {
+    max-width: 30%;
+}
+#frase-solta{
+    color: purple;
+}
+main > p {
+    max-width: 30%;
+}
+.info{
+    display: flex;
+}
