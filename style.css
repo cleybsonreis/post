@@ -19,24 +19,32 @@ main{
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     padding: 40px;
-    max-width: 800px;
+    max-width: 710px;
     margin: auto;
+    position: relative;
+    margin-top: 10%;
+    
 }
 main > h1 {
     max-width: 50%;
     margin: 0;
+    margin-bottom: 25px;
 }
 #frase-solta{
     color: purple;
 }
 article > p {
-    max-width: 45%;
+    max-width: 48%;
+    margin-bottom: 60px;
 }
 .info{
     columns: 3;
     margin: 0;
     max-width: 47%;
+
 }
 .info > h3, p{
     margin: 0;
+    font-size: 1em;
 }
+
