@@ -24,13 +24,19 @@ main{
 }
 main > h1 {
     max-width: 50%;
+    margin: 0;
 }
 #frase-solta{
     color: purple;
 }
-main > p {
+article > p {
     max-width: 45%;
 }
-.templete{
-    display: flex;
+.info{
+    columns: 3;
+    margin: 0;
+    max-width: 47%;
+}
+.info > h3, p{
+    margin: 0;
 }
